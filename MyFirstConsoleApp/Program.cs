@@ -30,7 +30,7 @@ namespace MyFirstConsoleApp
             Console.WriteLine("Then you should go for " +want+", and don't procrastinate!");
 
 
-            Console.ReadKey();
+            Console.Read();
         }
     }
 }
