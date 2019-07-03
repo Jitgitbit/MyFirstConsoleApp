@@ -10,6 +10,8 @@ namespace MyFirstConsoleApp
             string name = Console.ReadLine();
             Console.WriteLine("Hello, " + name);
             Console.ForegroundColor = ConsoleColor.Cyan;
+            Console.BackgroundColor = ConsoleColor.DarkMagenta;
+
             Console.WriteLine("C# is cool!");
 
             Console.ReadKey();
