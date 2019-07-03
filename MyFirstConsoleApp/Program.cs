@@ -24,6 +24,9 @@ namespace MyFirstConsoleApp
             Console.ForegroundColor = ConsoleColor.DarkMagenta;
             Console.BackgroundColor = ConsoleColor.Cyan;
 
+            Console.Clear();
+
+
             Console.WriteLine("Then you should go for " +want);
 
 
