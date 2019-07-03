@@ -21,6 +21,9 @@ namespace MyFirstConsoleApp
             Console.WriteLine("And what do you want?");
             string want = Console.ReadLine();
 
+            Console.ForegroundColor = ConsoleColor.DarkMagenta;
+            Console.BackgroundColor = ConsoleColor.Cyan;
+
             Console.WriteLine("Then you should go for " +want);
 
 
