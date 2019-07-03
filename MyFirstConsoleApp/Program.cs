@@ -18,6 +18,12 @@ namespace MyFirstConsoleApp
 
             Console.WriteLine("C# is cool!");
 
+            Console.WriteLine("And what do you want?");
+            string want = Console.ReadLine();
+
+            Console.WriteLine("Then you should go for " +want);
+
+
             Console.ReadKey();
         }
     }
